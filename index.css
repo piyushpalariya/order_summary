@@ -1,0 +1,98 @@
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+
+.attribution{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#card{
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    margin:100px auto;
+    align-items: center;
+    max-width: 300px;
+}
+
+
+#plan_details{
+    display: flex;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px 10px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    max-width: 275px;
+    text-align: center;
+}
+h2{
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+#illustration-hero{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    max-width: 300px;
+}
+#change_plan{
+    border: 0px;
+    background-color: hsl(225, 100%, 98%);
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
+
+#change_plan:hover{
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+}
+
+#Annual{
+    color: hsl(223, 47%, 23%);
+}
+#plan{
+    margin: 5px 30px;
+}
+
+#icon-music{
+    width: 40px;
+}
+
+#Proceed{
+    border-radius: 10px;
+    padding: 10px 70px;
+    margin: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+}
+
+#Proceed:hover{
+    background-color: hsl(225, 100%, 94%);
+    cursor: pointer;
+}
+
+#Cancel{
+    border: 0px;
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 20px;
+}
+
+#Cancel:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
